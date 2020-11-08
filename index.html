@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://kit.fontawesome.com/5ba01f7dd3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Random User</title>
+</head>
+<body>
+<header class="jumbotron bg-dark text-white">
+    <div class="row text-center">
+        <div class="col-12 col-sm-6 offset-sm-3">
+            <h1>Random Users API</h1>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 offset-sm-3">
+                <div class="card bg-light text-center">
+                    <div class="card-header mb-1">
+                        <img class="card-img-top rounded-circle u-img" src="https://randomuser.me/api/portraits/women/49.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title">Hi, My name is</p>
+                        <h2 class="card-text">Rachel Welch</h2>
+                        <div class="mt-4">
+                        <!-- single icon -->
+                            <button class="icon mr-2 btn btn-lg btn-outline-light active" data-label="name">
+                                <span class="far fa-user"></span>
+                            </button>
+                            <button class="icon mr-2 btn btn-lg btn-outline-light" data-label="email">
+                                <span class="far fa-envelope-open"></span>
+                            </button>
+                        
+                        
+                            <button class="icon mr-2 btn btn-lg btn-outline-light" data-label="age">
+                                <span class="far fa-calendar-times"></span>
+                            </button>
+                        
+                            <button class="icon mr-2 btn btn-lg btn-outline-light" data-label="street">
+                                <span class="far fa-map"></span>
+                            </button>
+                        
+                            <button class="icon mr-2 btn btn-lg btn-outline-light" data-label="phone">
+                                <span class="fas fa-phone"></span>
+                            </button>
+                            <button class="icon mr-2 btn btn-lg btn-outline-light" data-label="password">
+                                <span class="fas fa-user-lock"></span>
+                            </button>
+                            
+                        </div>
+                        <button class="mt-5 btn btn-md btn-info random" type="button">
+                            Random User
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
